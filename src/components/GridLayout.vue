@@ -224,8 +224,11 @@
                     this.updateHeight();
                 });
             },
-            layout: function () {
-                this.layoutUpdate();
+            layout: {
+                handler: function () {
+                    this.layoutUpdate();
+                },
+                deep:true
             },
             colNum: function (val) {
                 eventBus.$emit("setColNum", val);
