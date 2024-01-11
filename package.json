@@ -7,6 +7,7 @@
     "@interactjs/dev-tools": "^1.10.2",
     "@interactjs/interactjs": "^1.10.2",
     "@interactjs/modifiers": "^1.10.2",
+    "core-js": "^3.35.0",
     "element-resize-detector": "^1.2.1",
     "lodash": "^4.17.21"
   },
@@ -27,7 +28,7 @@
     "node-sass": "^4.13.0",
     "rimraf": "^2.7.1",
     "sass-loader": "^7.0.1",
-    "vue": "^3.0.0",
+    "vue": "3.2.13",
     "webpack-bundle-analyzer": "^3.9.0"
   },
   "main": "dist/vue-grid-layout.common.js",
